@@ -15,7 +15,7 @@ package model;
  * @author Alan Fowler
  * @version 1.3
  */
-public final class MovableTetrisPiece {
+public final class MovableTetrisPiece implements MyMovableTetrisPiece {
     
     /**
      * The number of Points in a TetrisPiece.
@@ -74,6 +74,7 @@ public final class MovableTetrisPiece {
      * 
      * @return The TetrisPiece describing this piece.
      */
+    @Override
     public TetrisPiece getTetrisPiece() {
         return myTetrisPiece;
     }
@@ -83,6 +84,7 @@ public final class MovableTetrisPiece {
      * 
      * @return the board position.
      */
+    @Override
     public Point getPosition() {
         return myPosition;
     } 
@@ -92,6 +94,7 @@ public final class MovableTetrisPiece {
      * 
      * @return current rotation value.
      */
+    @Override
     public Rotation getRotation() {
         return myRotation;
     }
@@ -132,6 +135,7 @@ public final class MovableTetrisPiece {
      * 
      * @return the board points for the TetrisPiece blocks.
      */
+    @Override
     public Point[] getBoardPoints() {
         return getPoints(myPosition);
     }
@@ -142,6 +146,7 @@ public final class MovableTetrisPiece {
      * 
      * @return A new rotated movable TetrisPiece
      */
+    @Override
     public MovableTetrisPiece rotateCW() {
         return new MovableTetrisPiece(myTetrisPiece,
                                       myPosition,
@@ -153,6 +158,7 @@ public final class MovableTetrisPiece {
      * 
      * @return A new rotated movable TetrisPiece
      */
+    @Override
     public MovableTetrisPiece rotateCCW() {
         return new MovableTetrisPiece(myTetrisPiece,
                                       myPosition,
@@ -164,6 +170,7 @@ public final class MovableTetrisPiece {
      * 
      * @return A new left moved movable TetrisPiece
      */
+    @Override
     public MovableTetrisPiece left() {
         return new MovableTetrisPiece(myTetrisPiece,
                                       myPosition.transform(-1, 0),
@@ -175,6 +182,7 @@ public final class MovableTetrisPiece {
      * 
      * @return A new right moved movable TetrisPiece
      */
+    @Override
     public MovableTetrisPiece right() {
         return new MovableTetrisPiece(myTetrisPiece,
                                       myPosition.transform(1, 0),
@@ -186,6 +194,7 @@ public final class MovableTetrisPiece {
      * 
      * @return A new movable TetrisPiece moved down.
      */
+    @Override
     public MovableTetrisPiece down() {
         return new MovableTetrisPiece(myTetrisPiece,
                                       myPosition.transform(0, -1),
@@ -201,6 +210,7 @@ public final class MovableTetrisPiece {
      * @param thePosition the location for the returned MovableTetrisPiece
      * @return A new movable TetrisPiece at the specified location
      */
+    @Override
     public MovableTetrisPiece setPosition(final Point thePosition) {
         return new MovableTetrisPiece(myTetrisPiece, thePosition, myRotation);
     }
