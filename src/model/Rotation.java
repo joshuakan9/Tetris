@@ -14,6 +14,7 @@ import java.util.Random;
  * @author Alan Fowler
  * @version 1.2
  */
+@SuppressWarnings("PublicMethodNotExposedInInterface")
 public enum Rotation {
 
     /**

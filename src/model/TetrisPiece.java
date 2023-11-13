@@ -15,7 +15,7 @@ import java.util.Random;
  * @author Alan Fowler
  * @version 1.3
  */
-@SuppressWarnings("CheckStyle")
+@SuppressWarnings({"CheckStyle", "PublicMethodNotExposedInInterface"})
 public enum TetrisPiece {
 
     /** The 'I' TetrisPiece. */
