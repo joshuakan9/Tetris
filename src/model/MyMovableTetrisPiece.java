@@ -4,7 +4,7 @@ package model;
  * Interface for a movable Tetris piece. This interface defines the essential actions and
  * properties of a movable piece in the Tetris game.
  *
- * @author Tyler Cairney'
+ * @author Tyler Cairney' josh
  * @version 1.0
  */
 public interface MyMovableTetrisPiece {
