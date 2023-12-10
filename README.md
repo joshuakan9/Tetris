@@ -62,6 +62,8 @@ Autumn 2023
    - Jar File (this is located in .idea/artifacts - no music)
    - The ability for the user to select between easy, medium, and hard difficulty before starting a new game
 
+## Executive Summary:
+ - https://docs.google.com/document/d/19B5Ntb2H0IOf_1yJ93-WRcpIdumobKiRWU8DvGEeU9w/edit
 
 
 Included:
