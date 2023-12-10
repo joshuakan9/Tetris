@@ -51,6 +51,18 @@ Autumn 2023
  - Meeting Minutes: https://docs.google.com/document/d/1_QcnD_l412rijxIYXIzFufNI4wChT8nzERGTuX_RlQY/edit?usp=sharing
  - After our meetings, some members would run into problems or have challenges. When this occurred, we described our issue and included where the code was located in the project. Other members would then contribute in helping out if they were available. For example, Josh was having some struggles with adding the scorePanel as a listener for the board, with the help of the group, the problem that the listener was added twice was discovered.
 
+## Sprint 3 Comments
+ - Comments:
+   - Edited the public board API with the addition of the setGameOver() method.
+   - JAR file doesn't contain music as it wouldn't run with it implemented.
+ - Extra Feature: Usage of Gradients in our panels.
+ - Extra Credit:
+   - Music implemented at the start of a new game
+   - Sound effects implemented on row clear
+   - Jar File (this is located in .idea/artifacts - no music)
+   - The ability for the user to select between easy, medium, and hard difficulty before starting a new game
+
+
 
 Included:
 
