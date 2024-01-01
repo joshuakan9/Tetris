@@ -59,7 +59,7 @@ For detailed insights into our development journey, visit our Sprint 2 / 3 meeti
 
 ## Screenshot
 
-![tetrisimg](https://i.imgur.com/PjyBl5V.png)
+![tetrisimg](https://github.com/joshuakan9/Tetris/blob/main/gameScreenshot.png)
 
 
 ## Included
