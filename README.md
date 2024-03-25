@@ -19,8 +19,6 @@ This project leverages the following technologies:
 - **Swing**: To create interactive GUI components.
 - **Sound Libraries**: For in-game music and sound effects.
 
-## Installation
-
 ## Installation and Setup
 
 To get Tetris up and running on your local machine, please follow these instructions:
